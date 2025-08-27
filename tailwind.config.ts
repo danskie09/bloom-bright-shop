@@ -18,7 +18,21 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'playfair': ['Playfair Display', 'serif'],
+				'inter': ['Inter', 'sans-serif'],
+			},
 			colors: {
+				'rose': {
+					primary: 'hsl(var(--rose-primary))',
+					light: 'hsl(var(--rose-light))',
+					soft: 'hsl(var(--rose-soft))',
+				},
+				'sage': {
+					primary: 'hsl(var(--sage-primary))',
+					light: 'hsl(var(--sage-light))',
+				},
+				'cream': 'hsl(var(--cream))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
